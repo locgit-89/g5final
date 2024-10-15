@@ -1,0 +1,41 @@
+
+* {
+  /* border: 1px solid black; */
+}
+
+#filter {
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgb(103, 104, 106);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#gender, #price {
+  width: 50%;
+}
+
+#gender {
+  border-right: 2px solid white;
+}
+
+#gender h2, #price h2 {
+  color: rgb(8, 239, 62);
+  text-align: center;
+}
+
+#filter button {
+  background-color: rgb(88, 85, 81);
+  color: rgb(247, 248, 248);
+  padding: 10px 30px ;
+  text-align: center;
+  width: 100%;
+  border: none;
+  font-size: 15px;
+}
+
+#filter button:hover {
+  background-color: white;
+  color: black;
+}

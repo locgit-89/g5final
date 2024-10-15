@@ -1,0 +1,42 @@
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  color: rgb(26, 100, 100);
+}
+#team {
+  background-color: rgb(108, 127, 132);
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+}
+
+.Item {
+  background-color: rgb(114, 166, 182);
+  align-items: center;
+  align-content: center;
+  margin: 40px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+#team h3 {
+  padding: 10px;
+}
+
+#media {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  height: 70px;
+  margin: 10px auto;
+}
+
+#media i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#media i:hover {
+  color: red;
+}

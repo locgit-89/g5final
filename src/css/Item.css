@@ -1,0 +1,41 @@
+
+#parentItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+#leftItem, #rightItem {
+  margin: 20px;
+  border-radius: 5px;
+}
+
+#leftItem {
+  width: 35%;
+}
+
+#rightItem {
+  width: 55%;
+}
+/* left-------------------- */
+#leftItem img {
+  border-radius: 10px;
+}
+
+/* right------------------- */
+#rightItem {
+  background-color: #bfd6d8;
+  padding: 20px;
+}
+
+#parentItem h1 {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#parentItem h3 {
+  padding: 10px;
+}
+#parentItem span {
+  font-size: 20px;
+  color: red;
+}

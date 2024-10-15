@@ -1,0 +1,119 @@
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* head---------------------------- */
+#head {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 100px;
+}
+
+/* logo----------- */
+#logo img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* counter-------- */
+
+/* nav---------------------------- */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 30px;
+  border-radius: 5px;
+  background-color: bisque;
+}
+
+nav div {
+  padding: 10px 30px;
+  font-size: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+nav div:hover {
+  background-color: black;
+  color: white;
+  z-index: 1;
+}
+
+nav ul {
+  position: absolute;
+  display: none;
+  top: 43px;
+  left: -5px;
+  min-width: 200px;
+}
+
+nav li {
+  padding: 20px 40px;
+  list-style: none;
+  background-color: black;
+  color: white;
+}
+
+nav li:hover {
+  background-color: white;
+  color: rgb(12, 131, 160);
+}
+
+/* face-------------- */
+#face:hover ul {
+  display: block;
+}
+
+/* filter------------ */
+#filter:hover ul {
+  display: block;
+}
+
+/* home------------------------- */
+/* #home {
+  position: relative;
+} */
+
+#about ul {
+  left: -100px;
+
+}
+#about:hover ul {
+  display: block;
+}
+
+#about ul li {
+  padding: 15px;
+}
+
+#about ul li:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+#top {
+  margin: 10px;
+  padding: 13px 16px; 
+  border: none;
+  background-color: rgb(28, 126, 206);
+  border-radius: 5px;
+  position: fixed;
+  cursor: pointer;
+  bottom: 0;
+  right: 0;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+* {
+  /* border: 1px solid black; */
+}
+
+#library {
+  width: 100%;
+}
+
+#pic img {
+  width: 70%;
+  margin: 20px 150px;
+}
+
+#pic h2 {
+  text-align: center;
+  color: rgb(10, 117, 232);
+  margin-top: 50px;
+}
+
+#lib {
+  background-color: antiquewhite;
+}
+
+.imgLib {
+  background-color: rgb(242, 238, 232);
+  box-shadow: -10px 10px 25px rgb(75, 107, 126);
+}
+
+#h2Tab {
+  background-color: antiquewhite;
+  text-align: center;
+  color: rgb(10, 117, 232);
+  padding-top: 50px;
+}
+
+#h1 {
+  width: 400px;
+  padding: 20px 50px;
+  margin: 20px;
+}
+
+#h3 {
+  width: 500px;
+  padding: 30px 50px;
+  margin: 20px;
+}
+
+#h2 {
+  width: 800px;
+  padding: 20px 100px;
+  margin: 50px;
+}
+
+#lib #h4 {
+  width: 400px;
+  padding: 50px 20px;
+  margin: 20px;
+}
+
+#h6 {
+  width: 500px;
+  padding: 50px 100px;
+  margin: 20px;
+}
+
+#h5 {
+  width: 800px;
+  padding: 50px 100px;
+  margin: 50px;
+}

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+body {
+  /* background-color: rgb(170, 204, 208); */
+  background-color: rgb(215, 227, 213);
+}
+
+#img {
+  width: 100%;
+}
+img {
+  width: 100%;
+}
