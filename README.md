@@ -1,6 +1,6 @@
-# Hello! This is eProject group 1.
+# Hello! This is eProject group 5.
 
-Introduction: The "Nobel Prize Winner" website is a project dedicated to honoring Marie Curie, the first woman to win two Nobel Prizes. The site features a clean design that highlights key information about her life, groundbreaking research, and notable achievements. With interactive features such as color changes when users hover over content and a timeline that showcases significant milestones in her career, the website offers an engaging way to explore the legacy of Marie Curie.
+Introduction:this is a website selling cosmetics of Clarins cosmetics brand.
 
 Our Group Members:
     Than The Loc - Student1571994 (Leader)
