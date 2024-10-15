@@ -21,7 +21,7 @@ const Item = () => {
       <Nav/>
       <div id='parentItem'>
         <div id='leftItem'>
-        <img src={`${path}/${r.img}`}  alt={r.name} />  
+          <img src={`${path}/${img}`}/>  
         </div>
         <div id='rightItem'>
           <h1>Detail</h1>
