@@ -14,12 +14,14 @@ const Item = () => {
     setPrice(sessionStorage.getItem('price'))
     setPromotion(sessionStorage.getItem('promotion'))
   },[])
+  const path = process.env.PUBLIC_URL;
+
   return (
     <>
       <Nav/>
       <div id='parentItem'>
         <div id='leftItem'>
-          <img src={img}/>  
+        <img src={`${path}/${r.img}`}  alt={r.name} />  
         </div>
         <div id='rightItem'>
           <h1>Detail</h1>
