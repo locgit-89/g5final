@@ -22,9 +22,9 @@ const Contact = () => {
 
       <h2>Social Media</h2>
       <div id="media">
-          <span><i class="fa-brands fa-facebook"></i></span>
-          <span><i class="fa-brands fa-youtube"></i></span>
-          <span><i class="fa-brands fa-square-instagram"></i></span>
+          <span>FACEBOOK</span>
+          <span>YOUTUBE</span>
+          <span>INSTAGRAM</span>
       </div>
     </div>
     </>

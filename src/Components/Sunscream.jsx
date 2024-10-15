@@ -14,11 +14,7 @@ const Sunscream = () => {
     sessionStorage.setItem("promotion", promotion)
   }
 
-  // const [pro, setPro] = useState(data)
-  // const ham = () => {
-  //   const sortProduct = [...sunscream].sort((a, b) => a.price - b.price)
-  //   setPro(sortProduct)
-  // }
+  const path = process.env.PUBLIC_URL;
   return (
     <>
       <Nav/>
@@ -27,7 +23,7 @@ const Sunscream = () => {
             sunscream.map(r => (
               <Link to='item' className="link">
                 <button id="item" onClick={() => setStorage(r.img, r.name, r.price, r.promotion)}>
-                  <img src={r.img} alt={r.name} />
+                  <img src={`${path}/${r.img}`}  alt={r.name} />
                   <h3>name: {r.name}</h3>
                   <h3>price: {r.price}$</h3>
                 </button>
