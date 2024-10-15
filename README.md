@@ -1,4 +1,40 @@
-# Getting Started with Create React App
+# Hello! This is eProject group 1.
+
+Introduction: The "Nobel Prize Winner" website is a project dedicated to honoring Marie Curie, the first woman to win two Nobel Prizes. The site features a clean design that highlights key information about her life, groundbreaking research, and notable achievements. With interactive features such as color changes when users hover over content and a timeline that showcases significant milestones in her career, the website offers an engaging way to explore the legacy of Marie Curie.
+
+Our Group Members:
+    Than The Loc - Student1571994 (Leader)
+
+    Le Thanh Hoang - Student1574888
+
+   
+
+    
+
+
+
+- Documents reports: https://github.com/locgit-89/g5final/tree/main/document
+
+
+- Data Test: https://github.com/locgit-89/g5final/tree/main/src/data
+
+
+- To run website, simply click on the following link: https://locgit-89.github.io/g5final/
+
+
+
+- To run this project locally, follow these steps:
+
+Clone the repository:
+
+    git clone https://github.com/dohung95/Nobel-Prize-Winner.git
+
+Navigate to the project directory:
+
+    cd Group1_Nobel-Prize-Winner
+    ## Install dependencies:
+
+    # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,7 +42,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+    ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -68,3 +104,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Using FA free Icon
+
+npm install @fortawesome/react-fontawesome
+npm install --save-dev @fortawesome/fontawesome-free
+
+### Import font
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faHome,faSearch } from '@fortawesome/free-solid-svg-icons';
+
+# Acknowledgments
+Special thanks to all contributors, instructor and group members who made this project possible.
+Special gratitude for FPT Aptech Academy and eProject who given us the chance to involve in a meaningful and realistic project.
+
