@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 import Read from "./Components/Read";
 import Makeup from "./Components/Makeup";
 import Skincare from "./Components/Skincare";
@@ -18,7 +18,7 @@ import High from "./Components/HighPrice";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Read/>}/>
           <Route path="/makeup" element={<Makeup/>}/>
@@ -47,8 +47,9 @@ const App = () => {
           <Route path="/filter/high" element={<High/>}/>
           <Route path="/filter/high/item" element={<Item/>}/>
           <Route path="/read/best/item" element={<Item/>}/>
+          <Route path="*" element={<Read/>}/>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

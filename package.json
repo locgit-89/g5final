@@ -2,7 +2,7 @@
   "name": "clarins",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dev-name.github.io/group5",
+  "homepage": "https://dev-name.github.io/g5final",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
