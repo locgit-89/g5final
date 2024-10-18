@@ -27,11 +27,11 @@ Our Group Members:
 
 Clone the repository:
 
-    git clone https://github.com/dohung95/Nobel-Prize-Winner.git
+    git clone: https://github.com/locgit-89/g5final
 
 Navigate to the project directory:
 
-    cd Group1_Nobel-Prize-Winner
+    cd g5final
     ## Install dependencies:
 
     # Getting Started with Create React App
