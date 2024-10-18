@@ -17,7 +17,7 @@ const Intro = () => {
           <h2>SITE MAP</h2>
           <img src={siteMap} alt="" />
         </div>
-        <h2 id='h2Tab'>LIBRARY</h2>
+        <h2 id='h2Tab'>GALLERY</h2>
         <div id='lib'>
           <img className='imgLib' id='h1' src={h1} alt="" />
           <img className='imgLib' id='h3' src={h3} alt="" />
